@@ -1,0 +1,45 @@
+.singlePostImg {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-family: "Lora", serif;
+  font-size: 28px;
+}
+
+.singlePostIcon i {
+  cursor: pointer;
+}
+
+.singlePostIcon i:first-child {
+  color: teal;
+}
+
+.singlePostIcon i:last-child {
+  color: tomato;
+}
+
+.singlePostInfo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-family: "Varela Round", sans-serif;
+  color: #b39656;
+}
+
+
+.singlePostDesc {
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.singlePostDesc::first-letter {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}

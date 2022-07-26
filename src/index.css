@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+}
+html, body {
+    max-width: 100%;
+    /* overflow-x: hidden; */
+}
+.custom_margin{
+    margin: 100px 0;
+}
+.Link{
+    text-decoration: none;
+}

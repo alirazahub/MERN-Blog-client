@@ -1,0 +1,30 @@
+
+  .input-file{
+    cursor: pointer;
+  }
+  .settingsPP {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  .settingsPPIcon i{
+    font-size: 30px;
+  }
+  .settingsPP > img {
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  
+  .settingsPPIcon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: lightcoral;
+    color: white;
+    display: flex;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  

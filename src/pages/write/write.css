@@ -1,0 +1,34 @@
+.write {
+  padding-top: 50px;
+}
+
+.writeImg {
+  width: 70vw;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+
+.writeIcon {
+  width: 35px;
+  height: 35px;
+  font-size: 20px;
+  border: 1px solid;
+  border-radius: 50%;
+  color: rgb(129, 125, 125);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.writeIcon::after{
+  content: "Upload File";
+  width: 1px;
+  color: rgb(22, 116, 187);
+  font-weight: 800;
+}
+
+.writeIcon i {
+  font-size: 30px;
+}

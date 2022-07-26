@@ -1,0 +1,37 @@
+* {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.active {
+  font-weight: 800;
+}
+.nav-link{
+  color: #666!important;
+}
+.navbar-nav{
+  margin-left: auto;
+}
+.links {
+  margin: 10px;
+  text-decoration: none;
+  color: #666;
+}
+
+.custom__bg {
+  background-color: #fff !important;
+}
+
+.topImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.topSearchIcon {
+  font-size: 18px;
+  color: #666;
+  cursor: pointer;
+  margin-left: 15px;
+}
